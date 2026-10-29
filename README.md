@@ -147,7 +147,7 @@ Para mostrar la ayuda:
 
 La clase `CallCounter` registra las evaluaciones de las funciones. El código contabiliza las llamadas a las funciones básicas y a las operaciones matemáticas, así como las etapas recursivas lógicas que corresponden a las definiciones anteriores. Estas etapas se registran explícitamente porque se ejecutan con bucles y no mediante llamadas recursivas nativas de C++.
 
-Por tanto, el número mostrado representa las evaluaciones contabilizadas según esta convención; no representa el número de instrucciones de máquina ni el número total de operaciones internas que realiza el procesador. El valor depende de las definiciones y del método de conteo utilizados.
+Por tanto, el número mostrado representa las evaluaciones contabilizadas según esta convención, no representa el número de instrucciones de máquina ni el número total de operaciones internas que realiza el procesador. El valor depende de las definiciones y del método de conteo utilizados.
 
 Se aplican dos límites importantes:
 
